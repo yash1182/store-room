@@ -1,0 +1,23 @@
+{
+  "name": "store-room",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/startup",
+    "dev": "nodemon ./src/startup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yash gupta",
+  "license": "ISC",
+  "dependencies": {
+    "auth-handler": "https://localhost/nexus/repository/npm-group/auth-handler/-/auth-handler-1.0.0.tgz",
+    "citizen-client": "https://localhost/nexus/repository/npm-group/citizen-client/-/citizen-client-1.0.0.tgz",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
